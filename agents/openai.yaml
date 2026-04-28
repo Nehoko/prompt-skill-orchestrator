@@ -1,0 +1,7 @@
+interface:
+  display_name: "Prompt Skill Orchestrator"
+  short_description: "Route prompts to Codex skills"
+  default_prompt: "Use $prompt-skill-orchestrator to select required skills for this task, coordinate execution, and persist durable outcomes when useful."
+
+policy:
+  allow_implicit_invocation: true
